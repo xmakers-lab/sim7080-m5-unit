@@ -9,6 +9,14 @@ SIM7080モジュール（M5Stack Unit / Grove接続）通信を簡単に扱う�
 M5Stack社のM5Stamp CAT-M Module（SIM7080G）を搭載した通信ユニットです。  
 Grove（HY2.0-4P）インターフェースにより、M5Stackシリーズと簡単に接続できます。
 
+付属のサンプルコードを使用することで、
+
+- モバイル通信の接続確認
+- HTTPによるデータ送信
+- SORACOMなどのクラウド連携
+
+をすぐに試すことができます。
+
 ---
 
 ## 特徴
@@ -47,7 +55,23 @@ Groveポートに接続して使用します。
 
 ## Examples
 
-※順次公開予定
+本リポジトリにはサンプルを用意しています。
+
+### connection_check
+
+通信の基本確認
+- SIM認識
+- 電波状態（RSSI）
+- ネットワーク接続
+
+### soracom_http
+
+クラウドへのデータ送信
+
+- HTTP通信
+- JSONデータ送信
+- SORACOM Harvest連携
+
 
 ---
 
