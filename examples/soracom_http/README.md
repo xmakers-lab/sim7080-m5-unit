@@ -33,4 +33,4 @@ connection_check の次のステップとして、
 
 - M5Stack Basic
 - SIM7080G Unit
-- SORACOM Air SIM
+- SIM
